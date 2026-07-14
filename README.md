@@ -23,6 +23,17 @@ It triggers automatically on asks like "add a readme", "document this project", 
 
 ## Installation
 
+The quickest way is npx — it installs the skill straight into `~/.claude/skills`:
+
+```bash
+npx github:evol1228/readme-skill
+
+# ...or install into the current project's .claude/skills instead
+npx github:evol1228/readme-skill --project
+```
+
+Or do it manually:
+
 ```bash
 # Clone the repo
 git clone https://github.com/evol1228/readme-skill.git
