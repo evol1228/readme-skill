@@ -23,13 +23,20 @@ It triggers automatically on asks like "add a readme", "document this project", 
 
 ## Installation
 
-The quickest way is npx — it installs the skill straight into `~/.claude/skills`:
+The quickest way is the [skills](https://github.com/vercel-labs/skills) CLI:
+
+```bash
+# Install for the current project
+npx skills add https://github.com/evol1228/readme-skill --skill readme-skill
+
+# ...or globally for all projects
+npx skills add https://github.com/evol1228/readme-skill --skill readme-skill -g
+```
+
+This repo is also directly npx-runnable, which installs into `~/.claude/skills`:
 
 ```bash
 npx github:evol1228/readme-skill
-
-# ...or install into the current project's .claude/skills instead
-npx github:evol1228/readme-skill --project
 ```
 
 Or do it manually:
