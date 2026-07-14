@@ -18,8 +18,8 @@ It triggers automatically on asks like "add a readme", "document this project", 
 
 ## What's in this repo
 
-- **`readme-skill/SKILL.md`** — the skill itself: the section spine, per-project-type adaptations (app, library, CLI), and the style rules with the reasoning behind each one
-- **`readme-skill/references/example.md`** — the gold-standard example README the skill is modeled on ([Git City](https://github.com/srizzon/git-city)), which the skill reads before writing anything
+- **`skills/readme-skill/SKILL.md`** — the skill itself: the section spine, per-project-type adaptations (app, library, CLI), and the style rules with the reasoning behind each one
+- **`skills/readme-skill/references/example.md`** — the gold-standard example README the skill is modeled on ([Git City](https://github.com/srizzon/git-city)), which the skill reads before writing anything
 
 ## Installation
 
@@ -28,7 +28,7 @@ It triggers automatically on asks like "add a readme", "document this project", 
 git clone https://github.com/evol1228/readme-skill.git
 
 # Copy the skill into your Claude Code skills folder
-cp -r readme-skill/readme-skill ~/.claude/skills/
+cp -r readme-skill/skills/readme-skill ~/.claude/skills/
 ```
 
 Claude Code picks it up automatically — next time you ask for a README in any project, the skill kicks in.
@@ -77,7 +77,7 @@ And mechanics worth explaining get a table instead of prose:
 | Public repos  | Building width    | More repos → wider base          |
 | Stars         | Window brightness | More stars → more lit windows    |
 
-See [`readme-skill/references/example.md`](readme-skill/references/example.md) for the full gold-standard page — roughly 170 lines covering setup, local backend, env vars with "where to find it" instructions, and license.
+See [`skills/readme-skill/references/example.md`](skills/readme-skill/references/example.md) for the full gold-standard page — roughly 170 lines covering setup, local backend, env vars with "where to find it" instructions, and license.
 
 ---
 
