@@ -4,6 +4,10 @@
   <strong>A Claude Code skill that writes READMEs that look hand-crafted, not generated.</strong>
 </p>
 
+<p align="center">
+  <img src="assets/banner.png" alt="readme-skill" width="800" />
+</p>
+
 ---
 
 ## What is readme-skill?
