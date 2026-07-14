@@ -5,6 +5,10 @@
 </p>
 
 <p align="center">
+  <a href="https://skills.sh/evol1228/readme-skill"><img src="https://skills.sh/b/evol1228/readme-skill" alt="skills.sh" /></a>
+</p>
+
+<p align="center">
   <img src="assets/banner.png" alt="readme-skill" width="800" />
 </p>
 
@@ -27,10 +31,10 @@ The quickest way is the [skills](https://github.com/vercel-labs/skills) CLI:
 
 ```bash
 # Install for the current project
-npx skills add https://github.com/evol1228/readme-skill --skill readme-skill
+npx skills add evol1228/readme-skill
 
 # ...or globally for all projects
-npx skills add https://github.com/evol1228/readme-skill --skill readme-skill -g
+npx skills add evol1228/readme-skill -g
 ```
 
 This repo is also directly npx-runnable, which installs into `~/.claude/skills`:
