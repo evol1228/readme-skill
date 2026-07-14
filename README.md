@@ -101,6 +101,10 @@ And mechanics worth explaining get a table instead of prose:
 
 See [`skills/readme-skill/references/example.md`](skills/readme-skill/references/example.md) for the full gold-standard page — roughly 170 lines covering setup, local backend, env vars with "where to find it" instructions, and license.
 
+## License
+
+[MIT](LICENSE) — use it, modify it, ship it anywhere; just keep the license notice.
+
 ---
 
 <p align="center">
