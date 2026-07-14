@@ -43,6 +43,13 @@ This repo is also directly npx-runnable, which installs into `~/.claude/skills`:
 npx github:evol1228/readme-skill
 ```
 
+It also works as a Claude Code plugin — inside Claude Code, run:
+
+```
+/plugin marketplace add evol1228/readme-skill
+/plugin install readme-skill@evol1228
+```
+
 Or do it manually:
 
 ```bash

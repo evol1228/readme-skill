@@ -1,0 +1,13 @@
+{
+  "name": "readme-skill",
+  "description": "Design and write beautiful, professional README.md files grounded in the actual repo — real commands, real env vars, no badge walls, no emoji headings.",
+  "version": "1.0.0",
+  "author": {
+    "name": "evol1228",
+    "url": "https://github.com/evol1228"
+  },
+  "homepage": "https://github.com/evol1228/readme-skill",
+  "repository": "https://github.com/evol1228/readme-skill",
+  "license": "MIT",
+  "keywords": ["readme", "documentation", "writing", "markdown"]
+}

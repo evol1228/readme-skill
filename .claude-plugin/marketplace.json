@@ -1,0 +1,14 @@
+{
+  "name": "evol1228",
+  "owner": {
+    "name": "evol1228",
+    "url": "https://github.com/evol1228"
+  },
+  "plugins": [
+    {
+      "name": "readme-skill",
+      "source": "./",
+      "description": "Design and write beautiful, professional README.md files grounded in the actual repo — real commands, real env vars, no badge walls, no emoji headings."
+    }
+  ]
+}
